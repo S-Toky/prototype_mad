@@ -6,14 +6,13 @@
 .displ{
     display: flex;
     justify-content: space-around;
+    margin-top: 50px;
 }
 
 .footer {
-    position: fixed-bottom;
-    left: 0;
-    bottom: 0;
+   
     width: 100%;
-    background-color: red;
+    background-color: rgb(73, 57, 57);
     color: white;
     text-align: center;
     margin-top: 20px;
@@ -44,7 +43,6 @@
 
 .panier{
     margin-top: 20px;
-    margin-left: 40px;
     color: black;
 }
 
@@ -70,5 +68,48 @@
 }
 
 .usersign{
-    margin-top: 38%;
+    margin-top: 10%;
 }
+
+.colortitr{
+    color: rgb(212, 197, 190);
+}
+
+.colortitr2 {
+    color: rgb(126, 140, 168);
+}
+
+.colortitr3 {
+    color: rgb(66, 40, 3);
+}
+
+.colortitr4 {
+    color: white;
+}
+
+.soustitre{
+    font-style: italic;
+}
+
+.logfoot{
+    width: 25%;
+}
+
+.foot{
+    display: flex;
+    justify-content: space-around;
+}
+
+.padfoot{
+    margin-top: 80px
+}
+
+.textprodM{
+    text-align: center;
+}
+
+.listcol{
+    font-style: italic;
+    color: green;
+}
+

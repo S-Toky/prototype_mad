@@ -11,7 +11,7 @@
         <script src="https://kit.fontawesome.com/48ba21fe93.js"></script>
 
     <link rel="stylesheet" href="style.css">
-    <title>test</title>
+    <title>Madepices</title>
 </head>
 <body>
     <section>
@@ -20,7 +20,7 @@
             <div class="container">
                 <div class="aline">
                     <div>
-                        <a class="navbar-brand" href="#">
+                        <a class="navbar-brand" href="index.html">
                             <img src="logo.png" class="log" alt="">
                         </a>
                     </div>
@@ -34,15 +34,12 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">Home
+                            <a class="nav-link" href="index.html">Accueil
                                 <span class="sr-only">(current)</span>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Services</a>
+                            <a class="nav-link" href="propos.html">A propos </a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Contact</a>
@@ -57,9 +54,8 @@
                       <i class="far fa-user usersign"></i>
                     </button>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                      <a class="dropdown-item" href="#">Action</a>
-                      <a class="dropdown-item" href="#">Another action</a>
-                      <a class="dropdown-item" href="#">Something else here</a>
+                      <a class="dropdown-item" href="#">S'inscrire</a>
+                      <a class="dropdown-item" href="#">Se connecter</a>
                     </div>
                   </div>
                 </div>
@@ -81,32 +77,40 @@
                     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
                 </ol>
                 <div class="carousel-inner" role="listbox">
                     <!-- Slide One - Set the background image for this slide in the line below -->
                     <div class="carousel-item active"
-                        style="background-image: url('fond1.jpg')">
+                        style="background-image: url('fond/fond1.jpg')">
                         <div class="carousel-caption d-none d-md-block">
-                            <h2 class="display-4">First Slide</h2>
-                            <p class="lead">This is a description for the first slide.</p>
+                            <h2 class="display-4 colortitr">L'univers des épices de Madagascar</h2>
+                            <p class="lead colortitr soustitre">Des épices naturelles et saisonnières haut de gamme.</p>
                         </div>
                     </div>
                     <!-- Slide Two - Set the background image for this slide in the line below -->
                     <div class="carousel-item"
-                        style="background-image: url('fond2.jpg')">
+                        style="background-image: url('fond/fond2.jpg')">
                         <div class="carousel-caption d-none d-md-block">
-                            <h2 class="display-4">Second Slide</h2>
-                            <p class="lead">This is a description for the second slide.</p>
+                            <h2 class="display-4 colortitr2">Un atelier de femmes</h2>
+                            <p class="lead colortitr2 soustitre">Pour un tri de calibrage manuel .</p>
                         </div>
                     </div>
                     <!-- Slide Three - Set the background image for this slide in the line below -->
                     <div class="carousel-item"
-                        style="background-image: url('fond3.jpg')">
+                        style="background-image: url('fond/fond3.jpg')">
                         <div class="carousel-caption d-none d-md-block">
-                            <h2 class="display-4">Third Slide</h2>
-                            <p class="lead">This is a description for the third slide.</p>
+                            <h2 class="display-4 colortitr3">Pour le monde entier</h2>
+                            <p class="lead colortitr3 soustitre">Les épices de Madagascar à portée de mains.</p>
                         </div>
                     </div>
+                    <!-- SLIDE 4 -->
+                     <div class="carousel-item" style="background-image: url('fond/epices.jpg')">
+                         <div class="carousel-caption d-none d-md-block">
+                             <h2 class="display-4 colortitr4">La magie de la poudre Madépices</h2>
+                             <p class="lead colortitr4 soustitre">Ajoutez votre touche personnelle dans votre cuisine au quotidien .</p>
+                         </div>
+                     </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -120,60 +124,244 @@
         </header>
     </section>
 
+    <!-- text accueil  -->
     <section>
         <div>
             <h1 class="text">
                 "les épices de Madagascar à portée de mains dans le monde entier"
             </h1>
-            <p>Nos épices sont traitées et conditionnées dans un atelier certifié HACCP par SGS depuis 2019</p>
         </div>
     </section>
 
+
+    <!-- premier ranger produit -->
     <section>
-        <div class="displ">
+    <div class="displ">
         <div class="card cardt" style="width: 18rem;">
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-                <img class="card-img-top rounded-circle" src="epices.jpg" alt="Card image cap">
+            <button type="button" class="btn btn-light" data-toggle="modal" data-target="#gingembreModal">
+                <img class="card-img-top rounded-circle" src="produit/gingembre.png" alt="Card image cap">
             </button>
             <div class="card-body">
-                <p class="card-text">Titre/Nom
+                <p class="card-text textprodM">Gingembre
                     </p>
             </div>
         </div>
         <div class="card cardt" style="width: 18rem;">
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-            <img class="card-img-top rounded-circle" src="epices.jpg" alt="Card image cap">
+            <button type="button" class="btn btn-light" data-toggle="modal" data-target="#curcumaModal">
+            <img class="card-img-top rounded-circle" src="produit/curcuma.png" alt="Card image cap">
             </button>
             <div class="card-body">
-                <p class="card-text">Titre/Nom
+                <p class="card-text textprodM">Curcuma
                     </p>
             </div>
         </div>
     <div class="card cardt" style="width: 18rem;">
-        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-            <img class="card-img-top rounded-circle" src="epices.jpg" alt="Card image cap">
+        <button type="button" class="btn btn-light" data-toggle="modal" data-target="#macisModal">
+            <img class="card-img-top rounded-circle" src="produit/macis.jpg" alt="Card image cap">
         </button>
         <div class="card-body">
-            <p class="card-text">Titre/Nom
+            <p class="card-text textprodM">Macis de muscade
                 </p>
         </div>
     </div>
     <div class="card cardt" style="width: 18rem;">
-        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-            <img class="card-img-top rounded-circle" src="epices.jpg" alt="Card image cap">
+        <button type="button" class="btn btn-light" data-toggle="modal" data-target="#muscadeModal">
+            <img class="card-img-top rounded-circle" src="produit/muscade.jpg" alt="Card image cap">
         </button>
         <div class="card-body">
-            <p class="card-text">Titre/Nom
+            <p class="card-text textprodM">Muscade
                 </p>
         </div>
     </div>
+</div>
+
+<!-- masic modal  -->
+<div class="modal fade" id="macisModal" tabindex="-1" role="dialog" aria-labelledby="macisModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="macisModalLabel">Produit Disponible</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <h5>VRAC</h5>
+                <div class="promodal">
+                    <div class="imgcontent">
+                        <img src="produit/macis.jpg" class="modalimg" alt="">
+                    </div>
+                    <div>
+                        <p class="listprod">Nom de l'épice</p>
+                        <p class="listprod">10 euros/kg</p>
+                        <p class="listprod listcol">Disponibilité immédiate</p>
+                        <p class="listprod">Total : <span>10</span> euros </p>
+                        <p>
+                            <form action="" method="post">
+                                <label for="">Quantité : </label>
+                                <input type="number" name="" id="" class="formqtt" placeholder="1">
+                            </form>
+                        </p>
+                    </div>
+                </div>
+                <hr>
+                <h5>DOYPACK</h5>
+                <div class="promodal">
+                    <div class="imgcontent">
+                        <img src="doypack/macisdoypack.png" class="modalimg" alt="">
+                    </div>
+                    <div>
+                        <p class="listprod">Nom de l'épice</p>
+                        <p class="listprod">5 euros/unité</p>
+                        <p class="listprod listcol">Disponibilité immédiate</p>
+                        <p class="listprod">Total : <span>10</span> euros </p>
+                        <p>
+                            <form action="" method="post">
+                                <label for="">Quantité : </label>
+                                <input type="number" name="" id="" class="formqtt" placeholder="2">
+                            </form>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-overflow" data-dismiss="modal"><i
+                        class="fas fa-cart-plus"></i></button>
+                <a href="macis.html" target="_blank""><button type=" button" class="btn btn-secondary">En savoir
+                        plus</button></a>
+            </div>
         </div>
-        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    </div>
+</div>
+
+<!-- curcuma modal  -->
+<div class="modal fade" id="curcumaModal" tabindex="-1" role="dialog" aria-labelledby="curcumaModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="curcumaModalLabel">Produit Disponible</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <h5>VRAC</h5>
+                <div class="promodal">
+                    <div class="imgcontent">
+                        <img src="produit/curcuma.png" class="modalimg" alt="">
+                    </div>
+                    <div>
+                        <p class="listprod">Nom de l'épice</p>
+                        <p class="listprod">10 euro/kg</p>
+                        <p class="listprod listcol">Disponibilité immédiate</p>
+                        <p class="listprod">Total : <span>10</span> euros </p>
+                        <p>
+                            <form action="" method="post">
+                                <label for="">Quantité : </label>
+                                <input type="number" name="" id="" class="formqtt" placeholder="1">
+                            </form>
+                        </p>
+                    </div>
+                </div>
+                <hr>
+                <h5>DOYPACK</h5>
+                <div class="promodal">
+                    <div class="imgcontent">
+                        <img src="doypack/Curcumadoypack.png" class="modalimg" alt="">
+                    </div>
+                    <div>
+                        <p class="listprod">Nom de l'épice</p>
+                        <p class="listprod">5 euros/unité</p>
+                        <p class="listprod listcol">Disponibilité immédiate</p>
+                        <p class="listprod">Total : <span>10</span> euros </p>
+                        <p>
+                            <form action="" method="post">
+                                <label for="">Quantité : </label>
+                                <input type="number" name="" id="" class="formqtt" placeholder="2">
+                            </form>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-overflow" data-dismiss="modal"><i
+                        class="fas fa-cart-plus"></i></button>
+                <a href="curcuma.html" target="_blank"><button type="button" class="btn btn-secondary">En savoir
+                        plus</button></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+            <!-- gingembre modal  -->
+     <div class="modal fade" id="gingembreModal" tabindex="-1" role="dialog" aria-labelledby="gingembreModalLabel"
+         aria-hidden="true">
+         <div class="modal-dialog" role="document">
+             <div class="modal-content">
+                 <div class="modal-header">
+                     <h5 class="modal-title" id="gingembreModalLabel">Produit Disponible</h5>
+                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                         <span aria-hidden="true">&times;</span>
+                     </button>
+                 </div>
+                 <div class="modal-body">
+                     <h5>VRAC</h5>
+                     <div class="promodal">
+                         <div class="imgcontent">
+                             <img src="produit/gingembre.png" class="modalimg" alt="">
+                         </div>
+                         <div>
+                             <p class="listprod">Nom de l'épice</p>
+                             <p class="listprod">10 euro/kg</p>
+                            <p class="listprod listcol">Disponibilité immédiate</p>
+                             <p class="listprod">Total : <span>10</span> euros </p>
+                             <p>
+                                 <form action="" method="post">
+                                     <label for="">Quantité : </label>
+                                     <input type="number" name="" id="" class="formqtt" placeholder="1">
+                                 </form>
+                             </p>
+                         </div>
+                     </div>
+                     <hr>
+                     <h5>DOYPACK</h5>
+                     <div class="promodal">
+                         <div class="imgcontent">
+                             <img src="doypack/Gingembredoypack.png" class="modalimg" alt="">
+                         </div>
+                         <div>
+                             <p class="listprod">Nom de l'épice</p>
+                             <p class="listprod">5 euros/unité</p>
+                             <p class="listprod listcol">Disponibilité immédiate</p>
+                             <p class="listprod">Total : <span>10</span> euros </p>
+                             <p>
+                                 <form action="" method="post">
+                                     <label for="">Quantité : </label>
+                                     <input type="number" name="" id="" class="formqtt" placeholder="2">
+                                 </form>
+                             </p>
+                         </div>
+                     </div>
+                 </div>
+                 <div class="modal-footer">
+                     <button type="button" class="btn btn-overflow" data-dismiss="modal"><i
+                             class="fas fa-cart-plus"></i></button>
+                     <a href="gingembre.html" target="_blank"><button type="button" class="btn btn-secondary">En savoir
+                             plus</button></a>
+                 </div>
+             </div>
+         </div>
+     </div>
+
+        <!-- muscade modal -->
+        <div class="modal fade" id="muscadeModal" tabindex="-1" role="dialog" aria-labelledby="muscadeModalLabel"
             aria-hidden="true">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Produit Disponible</h5>
+                        <h5 class="modal-title" id="muscadeModalLabel">Produit Disponible</h5>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
@@ -182,16 +370,17 @@
                         <h5>VRAC</h5>
                           <div class="promodal">
                             <div class="imgcontent">
-                              <img src="epices.jpg" class="modalimg" alt="">
+                              <img src="produit/muscade.jpg" class="modalimg" alt="">
                             </div>
                             <div>
                               <p class="listprod">Nom de l'épice</p>
                               <p class="listprod">10 euro/kg</p>
+                              <p class="listprod listcol">Disponibilité immédiate</p>
                               <p class="listprod">Total : <span>10</span> euros </p>
                               <p>
                                 <form action="" method="post">
                                 <label for="">Quantité : </label>
-                                <input type="number" name="" id="" class="formqtt" placeholder="0">  
+                                <input type="number" name="" id="" class="formqtt" placeholder="1">  
                                 </form>
                             </p>
                             </div>
@@ -200,35 +389,402 @@
                         <h5>DOYPACK</h5>
                           <div class="promodal">
                             <div class="imgcontent">
-                              <img src="epices.jpg" class="modalimg" alt="">
+                              <img src="doypack/noixdemuscade.png" class="modalimg" alt="">
                             </div>
                             <div>
-                              <p class="listprod">Nom de l'épice</p>
-                              <p class="listprod">10 euro/100g</p>
-                              <p class="listprod">Total : <span id="prix">10</span> euros </p>
-                              <p>
-                                <form>
-                                  <input type="number" id="input" name="input" value=""><br>
-                                  <input type="button" id="bouton" value="Contrôler" onclick="controle()">
+                            <p class="listprod">Nom de l'épice</p>
+                            <p class="listprod">5 euros/unité</p>
+                            <p class="listprod listcol">Disponibilité immédiate</p>
+                            <p class="listprod">Total : <span>10</span> euros </p>
+                            <p>
+                                <form action="" method="post">
+                                    <label for="">Quantité : </label>
+                                    <input type="number" name="" id="" class="formqtt" placeholder="2">
                                 </form>
-                              </p>
+                            </p>
                             </div>
                           </div>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-overflow" data-dismiss="modal"><i class="fas fa-cart-plus"></i></button>
-                        <button type="button" class="btn btn-primary">En savoirs plus</button>
+                        <a href="muscade.html" target="_blank"><button type="button" class="btn btn-secondary">En savoir plus</button></a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-        <section>
-            <div class="footer">
-                <p class="textfoot">Footer</p>
-            </div>
-        </section>
+
+    <!-- deuxième produit  -->
+     <section>
+         <div class="displ">
+             <div class="card cardt" style="width: 18rem;">
+                 <button type="button" class="btn btn-light" data-toggle="modal" data-target="#baobabModal">
+                     <img class="card-img-top rounded-circle" src="produit/baobab.png" alt="Card image cap">
+                 </button>
+                 <div class="card-body">
+                     <p class="card-text textprodM">Baobab
+                     </p>
+                 </div>
+             </div>
+             <div class="card cardt" style="width: 18rem;">
+                 <button type="button" class="btn btn-light" data-toggle="modal" data-target="#fleurdeselvanModal">
+                     <img class="card-img-top rounded-circle" src="produit/fleurdeselvanille.jpg" alt="Card image cap">
+                 </button>
+                 <div class="card-body">
+                     <p class="card-text textprodM">Fleur de sel vanille
+                     </p>
+                 </div>
+             </div>
+             <div class="card cardt" style="width: 18rem;">
+                 <button type="button" class="btn btn-light" data-toggle="modal" data-target="#fleurdeselbModal">
+                     <img class="card-img-top rounded-circle" src="produit/fleurdesel3b.jpg" alt="Card image cap">
+                 </button>
+                 <div class="card-body">
+                     <p class="card-text textprodM">Fleur de sel baie rose poivre noir
+                     </p>
+                 </div>
+             </div>
+             <div class="card cardt" style="width: 18rem;">
+                 <button type="button" class="btn btn-light" data-toggle="modal" data-target="#voatsiperiferyModal">
+                     <img class="card-img-top rounded-circle" src="produit/voatsiperifery.jpg" alt="Card image cap">
+                 </button>
+                 <div class="card-body">
+                     <p class="card-text textprodM">Poivre sauvage
+                     </p>
+                 </div>
+             </div>
+         </div>
+
+         <!-- baobab modal  -->
+         <div class="modal fade" id="baobabModal" tabindex="-1" role="dialog" aria-labelledby="baobabModalLabel"
+             aria-hidden="true">
+             <div class="modal-dialog" role="document">
+                 <div class="modal-content">
+                     <div class="modal-header">
+                         <h5 class="modal-title" id="baobabModalLabel">Produit Disponible</h5>
+                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                             <span aria-hidden="true">&times;</span>
+                         </button>
+                     </div>
+                     <div class="modal-body">
+                         <h5>VRAC</h5>
+                         <div class="promodal">
+                             <div class="imgcontent">
+                                 <img src="produit/baobab.png" class="modalimg" alt="">
+                             </div>
+                             <div>
+                                 <p class="listprod">Nom de l'épice</p>
+                                 <p class="listprod">10 euro/kg</p>
+                                 <p class="listprod listcol">Disponibilité immédiate</p>
+                                 <p class="listprod">Total : <span>10</span> euros </p>
+                                 <p>
+                                     <form action="" method="post">
+                                         <label for="">Quantité : </label>
+                                         <input type="number" name="" id="" class="formqtt" placeholder="1">
+                                     </form>
+                                 </p>
+                             </div>
+                         </div>
+                         <hr>
+                         <h5>DOYPACK</h5>
+                         <div class="promodal">
+                             <div class="imgcontent">
+                                 <img src="doypack/Baobabdoypack.png" class="modalimg" alt="">
+                             </div>
+                             <div>
+                                 <p class="listprod">Nom de l'épice</p>
+                                 <p class="listprod">5 euros/unité</p>
+                                 <p class="listprod listcol">Disponibilité immédiate</p>
+                                 <p class="listprod">Total : <span>10</span> euros </p>
+                                 <p>
+                                     <form action="" method="post">
+                                         <label for="">Quantité : </label>
+                                         <input type="number" name="" id="" class="formqtt" placeholder="2">
+                                     </form>
+                                 </p>
+                             </div>
+                         </div>
+                     </div>
+                     <div class="modal-footer">
+                         <button type="button" class="btn btn-overflow" data-dismiss="modal"><i
+                                 class="fas fa-cart-plus"></i></button>
+                         <a href="baobab.html" target="_blank"><button type="button" class="btn btn-secondary">En savoir
+                                 plus</button></a>
+                     </div>
+                 </div>
+             </div>
+         </div>
+
+         <!-- fleur de sel vanille  modal  -->
+         <div class="modal fade" id="fleurdeselvanModal" tabindex="-1" role="dialog" aria-labelledby="fleurdeselvanModalLabel"
+             aria-hidden="true">
+             <div class="modal-dialog" role="document">
+                 <div class="modal-content">
+                     <div class="modal-header">
+                         <h5 class="modal-title" id="fleurdeselvanModalLabel">Produit Disponible</h5>
+                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                             <span aria-hidden="true">&times;</span>
+                         </button>
+                     </div>
+                     <div class="modal-body">
+                         <h5>VRAC</h5>
+                         <div class="promodal">
+                             <div class="imgcontent">
+                                 <img src="produit/fleurdeselvanille.jpg" class="modalimg" alt="">
+                             </div>
+                             <div>
+                                 <p class="listprod">Nom de l'épice</p>
+                                 <p class="listprod">10 euro/kg</p>
+                                 <p class="listprod listcol">Disponibilité immédiate</p>
+                                 <p class="listprod">Total : <span>10</span> euros </p>
+                                 <p>
+                                     <form action="" method="post">
+                                         <label for="">Quantité : </label>
+                                         <input type="number" name="" id="" class="formqtt" placeholder="1">
+                                     </form>
+                                 </p>
+                             </div>
+                         </div>
+                         <hr>
+                         <h5>DOYPACK</h5>
+                         <div class="promodal">
+                             <div class="imgcontent">
+                                 <img src="doypack/fdsvanilledoypack.png" class="modalimg" alt="">
+                             </div>
+                             <div>
+                                 <p class="listprod">Nom de l'épice</p>
+                                 <p class="listprod">5 euros/unité</p>
+                                 <p class="listprod listcol">Disponibilité immédiate</p>
+                                 <p class="listprod">Total : <span>10</span> euros </p>
+                                 <p>
+                                     <form action="" method="post">
+                                         <label for="">Quantité : </label>
+                                         <input type="number" name="" id="" class="formqtt" placeholder="2">
+                                     </form>
+                                 </p>
+                             </div>
+                         </div>
+                     </div>
+                     <div class="modal-footer">
+                         <button type="button" class="btn btn-overflow" data-dismiss="modal"><i
+                                 class="fas fa-cart-plus"></i></button>
+                         <a href="fleursel.html" target="_blank"><button type="button" class="btn btn-secondary">En savoir
+                                 plus</button></a>
+                     </div>
+                 </div>
+             </div>
+         </div>
+
+         <!-- fleur de sel be modal  -->
+         <div class="modal fade" id="fleurdeselbModal" tabindex="-1" role="dialog" aria-labelledby="fleurdeselbModalLabel"
+             aria-hidden="true">
+             <div class="modal-dialog" role="document">
+                 <div class="modal-content">
+                     <div class="modal-header">
+                         <h5 class="modal-title" id="fleurdeselbModalLabel">Produit Disponible</h5>
+                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                             <span aria-hidden="true">&times;</span>
+                         </button>
+                     </div>
+                     <div class="modal-body">
+                         <h5>VRAC</h5>
+                         <div class="promodal">
+                             <div class="imgcontent">
+                                 <img src="produit/fleurdesel3b.jpg" class="modalimg" alt="">
+                             </div>
+                             <div>
+                                 <p class="listprod">Nom de l'épice</p>
+                                 <p class="listprod">10 euro/kg</p>
+                                 <p class="listprod listcol">Disponibilité immédiate</p>
+                                 <p class="listprod">Total : <span>10</span> euros </p>
+                                 <p>
+                                     <form action="" method="post">
+                                         <label for="">Quantité : </label>
+                                         <input type="number" name="" id="" class="formqtt" placeholder="1">
+                                     </form>
+                                 </p>
+                             </div>
+                         </div>
+                         <hr>
+                         <h5>DOYPACK</h5>
+                         <div class="promodal">
+                             <div class="imgcontent">
+                                 <img src="doypack/fdsbrpndoypack.png" class="modalimg" alt="">
+                             </div>
+                             <div>
+                                 <p class="listprod">Nom de l'épice</p>
+                                 <p class="listprod">5 euros/unité</p>
+                                 <p class="listprod listcol">Disponibilité immédiate</p>
+                                 <p class="listprod">Total : <span>10</span> euros </p>
+                                 <p>
+                                     <form action="" method="post">
+                                         <label for="">Quantité : </label>
+                                         <input type="number" name="" id="" class="formqtt" placeholder="2">
+                                     </form>
+                                 </p>
+                             </div>
+                         </div>
+                     </div>
+                     <div class="modal-footer">
+                         <button type="button" class="btn btn-overflow" data-dismiss="modal"><i
+                                 class="fas fa-cart-plus"></i></button>
+                         <a href="fleurselb.html" target="_blank"><button type="button" class="btn btn-secondary">En savoir
+                                 plus</button></a>
+                     </div>
+                 </div>
+             </div>
+         </div>
+
+         <!-- poivre sauvage modal -->
+         <div class="modal fade" id="voatsiperiferyModal" tabindex="-1" role="dialog" aria-labelledby="voatsiperiferyModalLabel"
+             aria-hidden="true">
+             <div class="modal-dialog" role="document">
+                 <div class="modal-content">
+                     <div class="modal-header">
+                         <h5 class="modal-title" id="voatsiperiferyModalLabel">Produit Disponible</h5>
+                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                             <span aria-hidden="true">&times;</span>
+                         </button>
+                     </div>
+                     <div class="modal-body">
+                         <h5>VRAC</h5>
+                         <div class="promodal">
+                             <div class="imgcontent">
+                                 <img src="produit/voatsiperifery.jpg" class="modalimg" alt="">
+                             </div>
+                             <div>
+                                 <p class="listprod">Nom de l'épice</p>
+                                 <p class="listprod">10 euro/kg</p>
+                                 <p class="listprod listcol">Disponibilité immédiate</p>
+                                 <p class="listprod">Total : <span>10</span> euros </p>
+                                 <p>
+                                     <form action="" method="post">
+                                         <label for="">Quantité : </label>
+                                         <input type="number" name="" id="" class="formqtt" placeholder="1">
+                                     </form>
+                                 </p>
+                             </div>
+                         </div>
+                         <hr>
+                         <h5>DOYPACK</h5>
+                         <div class="promodal">
+                             <div class="imgcontent">
+                                 <img src="doypack/Voatsydoypack.png" class="modalimg" alt="">
+                             </div>
+                             <div>
+                                 <p class="listprod">Nom de l'épice</p>
+                                 <p class="listprod">5 euros/unité</p>
+                                 <p class="listprod listcol">Disponibilité immédiate</p>
+                                 <p class="listprod">Total : <span>10</span> euros </p>
+                                 <p>
+                                     <form action="" method="post">
+                                         <label for="">Quantité : </label>
+                                         <input type="number" name="" id="" class="formqtt" placeholder="2">
+                                     </form>
+                                 </p>
+                             </div>
+                         </div>
+                     </div>
+                     <div class="modal-footer">
+                         <button type="button" class="btn btn-overflow" data-dismiss="modal"><i
+                                 class="fas fa-cart-plus"></i></button>
+                         <a href="voatsipery.html" target="_blank"><button type="button" class="btn btn-secondary">En savoir
+                                 plus</button></a>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </section>
+
+     <!-- footer -->
+       <section>
+           <!-- Footer -->
+           <footer class="page-footer font-small blue pt-4 bg-secondary padfoot">
+
+               <!-- Footer Links -->
+               <div class="container-fluid text-center text-md-left">
+
+                   <!-- Grid row -->
+                   <div class="row">
+
+                       <!-- Grid column -->
+                       <div class="col-md-6 mt-md-0 mt-3">
+
+                           <!-- Content -->
+                           <h5 class="text-uppercase">Certification</h5>
+                           <p> Nos épices sont traité et conditionné dans un atelier certifié HACCP par SGC depuis 2019.
+                           </p>
+
+                       </div>
+                       <!-- Grid column -->
+
+                       <hr class="clearfix w-100 d-md-none pb-3">
+
+                       <!-- Grid column -->
+                       <div class="col-md-3 mb-md-0 mb-3">
+
+                           <!-- Links -->
+                           <h5 class="text-uppercase"></h5>
+
+                           <ul class="list-unstyled">
+                               <li>
+                                   <a href="#!"></a>
+                               </li>
+                               <li>
+                                   <a href="#!"></a>
+                               </li>
+                               <li>
+                                   <a href="#!"></a>
+                               </li>
+                               <li>
+                                   <a href="#!"></a>
+                               </li>
+                           </ul>
+
+                       </div>
+                       <!-- Grid column -->
+
+                       <!-- Grid column -->
+                       <div class="col-md-3 mb-md-0 mb-3">
+
+                           <!-- Links -->
+                           <h5 class="text-uppercase"></h5>
+
+                           <ul class="list-unstyled">
+                               <li>
+                                   <a href="#!"></a>
+                               </li>
+                               <li>
+                                   <a href="index.html">Accueil</a>
+                               </li>
+                               <li>
+                                   <a href="propos.html">A propos</a>
+                               </li>
+                               <li>
+                                   <a href="#">Contact</a>
+                               </li>
+                           </ul>
+
+                       </div>
+                       <!-- Grid column -->
+
+                   </div>
+                   <!-- Grid row -->
+
+               </div>
+               <!-- Footer Links -->
+
+               <!-- Copyright -->
+               <div class="footer-copyright text-center py-3 bg-dark">© 2020 Copyright:
+                   <a href="/"> Madépices</a>
+               </div>
+               <!-- Copyright -->
+
+           </footer>
+           <!-- Footer -->
+       </section>
+      
 </body>
 
 <script src="calcul.js"></script>
