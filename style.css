@@ -1,0 +1,74 @@
+.text{
+    text-align: center;
+    margin-top: 60px;
+}
+
+.displ{
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer {
+    position: fixed-bottom;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    height: 50%;
+}
+
+.textfoot{
+    margin-bottom: 0;
+}
+
+.carousel-item {
+    height: 100vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.log{
+    width: 20%;
+}
+
+.aline{
+    display: flex;
+}
+
+.panier{
+    margin-top: 20px;
+    margin-left: 40px;
+    color: black;
+}
+
+.modalimg{
+    width: 100%;
+}
+
+.promodal{
+    display: flex;
+    justify-content: space-between;
+}
+
+.imgcontent{
+    width: 20%;
+}
+
+.listprod{
+    margin-bottom: 0px;
+}
+
+.formqtt{
+    width: 20%;
+}
+
+.usersign{
+    margin-top: 38%;
+}
