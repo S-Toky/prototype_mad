@@ -1,0 +1,34 @@
+.prodshow{
+    margin-top: 50px;
+}
+
+.textprod{
+    text-align: justify;
+    font-size: 16px;
+}
+/* 
+.tabu{
+    padding-left: 66px;
+} */
+
+.titrerecet{
+    text-align: center;
+    font-size: 2em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.espace{
+    margin-bottom: 10px;
+}
+
+.imgs{
+    width: 20%;
+    float: left;
+    position: relative;
+}
+
+.prodimgtail{
+    width: 370px;
+}
