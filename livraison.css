@@ -1,0 +1,29 @@
+.logolivraison{
+    width: 40px;
+
+}
+.mdnorm{
+	margin-bottom: 50px;
+	margin-left: 100px;
+	display: inline-block;
+	 
+}
+.bloclivre{
+	background-color: #e7ecef;
+}
+.imgbanc{
+	width: 30px;
+}
+.modpay{
+	margin-top: 30px;
+	background-color: #e7ecef;
+    padding-left: 100px;
+    padding-top: 30px;
+}
+.backpanier{
+	margin-left: 50px;
+	margin-top: -50px;
+}
+.collapspay{
+	margin-top: 10px;
+}
