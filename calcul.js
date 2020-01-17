@@ -1,6 +1,4 @@
-function controle() {
-    var saisie = document.getElementById("input").value;
-    alert("Vous avez saisi : " + saisie);
-    var prix = docume.getElementById("prix")
-    
-}
+document.getElementById("panier").addEventListener("click", function () {
+    var pani = document.getElementById("pani")
+    pani.innerHTML = (1);
+});

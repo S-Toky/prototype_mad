@@ -101,7 +101,7 @@
 }
 
 .padfoot{
-    margin-top: 80px
+    margin-top: 30px
 }
 
 .textprodM{
@@ -113,3 +113,35 @@
     color: green;
 }
 
+
+.propotext {
+    text-align: justify;
+    font-size: 1em;
+    margin-top: 60px;
+}
+
+.propotail{
+    font-size: 0.8em;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.logfooter{
+    width: 7%;
+    padding-top: 14px;
+    margin-left: 40px;
+}
+
+.sgs{
+    width: 100%;
+}
+
+.footpix {
+    font-size: 0.8em;
+    color: white;
+    margin-left: 40px;
+}
+
+.textfooter{
+    color: white;
+}
