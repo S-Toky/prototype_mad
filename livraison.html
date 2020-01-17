@@ -77,11 +77,11 @@
          <section>  
 
             <div class="bloclivre">
-            	<p> Vos achats :
-            	</p>
-            	<p> Mode de livraison:</p>
+            	
+            	<p> Choisissez votre mode de livraison</p>
             	<div class="mdnorm">
-            		<p> Circuit normal</p>
+                    <h5>Circuit normal</h5>
+            		
             		<form method="post" action="/action_page_post.php">
             			
             		<input type="radio" name="gender" id="male" value="male" checked>
@@ -90,6 +90,7 @@
             		<i class="fas fa-star"></i><i class="fas fa-star"></i>
             		<i class="far fa-star"></i><i class="far fa-star"></i>
             		<br>
+                    <br>
 
             		<input type="radio" name="gender" id="male" value="male" checked>
             		<img src="images/asl1.png" class="logolivraison"> 
@@ -98,6 +99,7 @@
             		<i class="far fa-star"></i><i class="far fa-star"></i>
             		<i class="far fa-star"></i>
             		<br>
+                    <br>
 
             		<input type="radio" name="gender" id="male" value="male" checked>
             		<img src="images/midex.png" class="logolivraison" >
@@ -105,13 +107,16 @@
             		<i class="fas fa-star"></i><i class="fas fa-star"></i>
             		<i class="far fa-star"></i><i class="far fa-star"></i>
             		<i class="far fa-star"></i>
+                    <br>
+                    <br>
 
-            		<p> Votre colis sera livré dans 5 jours </p>
+            		<p> Votre colis sera livré dans 10 jours </p>
             		
             	</div>
 
             	<div class="mdnorm">
-            		<p> Circuit rapide</p>
+                    <h5>Circuit rapide</h5>
+            		
             
 
             		<input type="radio" name="gender" id="male" value="male" checked>
@@ -120,6 +125,7 @@
             		<i class="fas fa-star"></i><i class="fas fa-star"></i>
             		<i class="far fa-star"></i><i class="far fa-star"></i>
             		<br>
+                    <br>
 
             		<input type="radio" name="gender" id="male" value="male" checked>
             		<img src="images/asl1.png" class="logolivraison"> 
@@ -128,6 +134,7 @@
             		<i class="far fa-star"></i><i class="far fa-star"></i>
             		<i class="far fa-star"></i>
             		<br>
+                    <br>
 
             		<input type="radio" name="gender" id="male" value="male" checked>
             		<img src="images/midex.png" class="logolivraison" >
@@ -135,15 +142,19 @@
             		<i class="fas fa-star"></i><i class="fas fa-star"></i>
             		<i class="far fa-star"></i><i class="far fa-star"></i>
             		<i class="far fa-star"></i>
+                    <br>
+                    <br>
             		<p> Votre colis sera livré dans 5 jours </p>
             		</form>
 
             	</div> <br>  
             	 <div class="backpanier">
-            	 	<a href="panier.html"><button type="button" class="btn btn-outline-dark">retour</button></a> 
+            	 	
             	</div> 
 
             </div>
+
+                <!-- paiement --> 
 
             <div class="collapspay">
             	<p> <strong>Total (commande + livraison) : 250 €</strong></p>    
@@ -154,6 +165,7 @@
 				  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
 				    Annuler
 				  </button>
+                  <a href="panier.html"><button type="button" class="btn btn-primary"> retour </button></a> 
 				</p>
 				<div class="collapse" id="collapseExample">
 				  <div class="card card-body">
@@ -161,20 +173,129 @@
 				  	   <div class="modpay">
 				               <p>Choisissez votre mode de paiment</p>
 				            <form method="post" action="/action_page_post.php">
-				            <input type="radio" name="gender" id="male" value="male" checked>
-				                Carte bancaire <br>  
-				                <img  class="imgbanc" src="images/master.png">
-				                <img  class="imgbanc" src="images/visa.png">  <br>           
-				   			<input type="radio" name="gender" id="male" value="male" checked>
-				                Virement bancaire
-				            </form>
-				            <button type="button" class="btn btn-outline-danger">Payer</button>
-			            </div>
+				            
+				                 <h5>   <input type="radio" name="gender" id="male" value="male" checked>
+                                 Carte bancaire </h5>
 
-				  </div>
-				</div>       
+                                <img  class="imgbanc" src="images/master.png">
+                                <img  class="imgbanc" src="images/visa.png">  
+                                <br>  
+                            <!-- paiement par carte bootstrap -->
+
+                                <div class="container">
+    <div class="row-fluid">
+
+     <!--    <fieldset> -->
+
+     
+          <!-- Name -->
+          <div class="control-group">
+            <label class="control-label"  for="username">Nom sur la carte</label>
+            <div class="controls">
+              <input type="text" id="username" name="username" placeholder="" class="input-xlarge">
+            </div>
+          </div>
+     
+          <!-- Card Number -->
+          <div class="control-group">
+            <label class="control-label" for="email">Numéro de carte</label>
+            <div class="controls">
+              <input type="text" id="email" name="email" placeholder="" class="input-xlarge">
+            </div>
+          </div>
+     
+          <!-- Expiry-->
+          <div class="control-group">
+            <label class="control-label" for="password">Date de validité</label>
+            <div class="controls">
+              <select class="span3" name="expiry_month" id="expiry_month">
+                <option></option>
+                <option value="01">Jan (01)</option>
+                <option value="02">Feb (02)</option>
+                <option value="03">Mar (03)</option>
+                <option value="04">Apr (04)</option>
+                <option value="05">May (05)</option>
+                <option value="06">June (06)</option>
+                <option value="07">July (07)</option>
+                <option value="08">Aug (08)</option>
+                <option value="09">Sep (09)</option>
+                <option value="10">Oct (10)</option>1
+                <option value="11">Nov (11)</option>
+                <option value="12">Dec (12)</option>
+              </select>
+              <select class="span2" name="expiry_year">
+                <option value="13">2013</option>
+                <option value="14">2014</option>
+                <option value="15">2015</option>
+                <option value="16">2016</option>
+                <option value="17">2017</option>
+                <option value="18">2018</option>
+                <option value="19">2019</option>
+                <option value="20">2020</option>
+                <option value="21">2021</option>
+                <option value="22">2022</option>
+                <option value="23">2023</option>
+              </select>
+            </div>
+          </div>
+     
+          <!-- CVV -->
+          <div class="control-group">
+            <label class="control-label"  for="password_confirm">CVC</label>
+            <div class="controls">
+              <input type="password" id="password_confirm" name="password_confirm" placeholder="" class="span2">
+            </div>
+          </div>
+     
+          <!-- Save card -->
+          <div class="control-group">
+            <div class="controls">
+              <label class="checkbox" for="save_card">
+                <input type="checkbox" id="save_card" value="option1">
+               Enregistrer la carte
+              </label>
+            </div>
+          </div>
+     
+          <!-- Submit -->
+         
+     
+       <!--  </fieldset> -->
+  <!--     </form> -->
+                    
+    </div>
+                 <a href="#"><button class="btn btn-success">Payer</button></a> 
+</div>
+
+
+
+
+				                    <br> <br>     
+				   			
+				                <h5>   
+                                    <input type="radio" name="gender" id="male" value="male" checked>
+                                Virement bancaire</h5> 
+                                <div class="form-group">
+                                    <label class="control-label"  for="username">Nom complet</label>
+                                        <div class="controls">
+                                          <input type="text" id="username" name="username" placeholder="" class="input-xlarge">
+                                        </div>
+                                        <label class="control-label"  for="username">IBAN</label>
+                                        <div class="controls">
+                                          <input type="text" id="username" name="username" placeholder="" class="input-xlarge">
+                                        </div>
+                                               
+                                  
+				            </form>
+                            <br>
+				            <button type="button" class="btn btn-success">Payer</button>
+			            </div>
+				    </div>
+				</div>   
+                <p> <strong> Notification de paiement : une facture vous sera envoyé par email !</strong></p>    
              </div>
 	
+
  <a href="index.html">Accueil</a>
  </section>
 
@@ -194,6 +315,7 @@
 		</div>
 	</footer>
 </section>
+
 
 </body>
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
